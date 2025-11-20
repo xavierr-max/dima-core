@@ -1,0 +1,18 @@
+﻿$criar projeto ->
+1. cria uma solução (exe/sln) 
+2. adiciona uma classlib (Core) na solução 
+3. adiciona o projeto API para solução e referencia para a classlib
+4. adiciona o projeto WASM para solução e referencia para a classlib
+
+cmd do dima ->
+- mkdir
+- dotnet new sln 
+    - dotnet sln add ./
+- dotnet new classlib -o
+- dotnet new web -o
+- dotnet new blazorwasm -o … --pwa
+
+OS REQUESTS SERVEM COMO MODELO DE DADOS PARA RECEBER OS DADOS DO FRONT E ENVIAR PARA OS HANDLERS
+OS RESPONSES SERVEM COMO MODELO DE DADOS PARA RECEBER A REPOSTA DOS HANDLERS E RETORNAR AO FRONT
+
+

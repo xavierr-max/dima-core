@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+  <PackageId>DimaPackageCores</PackageId>
+    <Version>1.0.0</Version>
+    <License>MIT</License>
+    <Authors>Maxwell Xavier</Authors>
+    <PackageDescription>Core do projeto Dima</PackageDescription>
+    <Description>Faz a conexão entre o projeto de API e pwa</Description>
+    <RepositoryUrl>https://github.com/xavierr-max/dima-core</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/xavierr-max/dima-core</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageIcon>icon.png</PackageIcon>
+    <PackageTags>core</PackageTags>
+    <Title>Dima.Core</Title>
+    <Summary>Core do projeto Dima</Summary>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\Media\icon.png" Pack="true" PackagePath="\"/>
+  </ItemGroup>
+
+  </PropertyGroup>
+
+</Project>
