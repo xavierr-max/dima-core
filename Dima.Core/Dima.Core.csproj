@@ -1,11 +1,10 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-
-  <PackageId>DimaPackageCores</PackageId>
+    <PackageId>DimaPackageCores</PackageId>
     <Version>1.0.1</Version>
     <License>MIT</License>
     <Authors>Maxwell Xavier</Authors>
@@ -19,11 +18,9 @@
     <Title>Dima.Core</Title>
     <Summary>Core do projeto Dima</Summary>
   </PropertyGroup>
-
+  
   <ItemGroup>
     <None Include="..\Media\icon.png" Pack="true" PackagePath="\"/>
   </ItemGroup>
-
-  </PropertyGroup>
-
+  
 </Project>
