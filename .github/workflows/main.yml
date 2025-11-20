@@ -20,6 +20,7 @@ jobs:
 
     - name: Build with dotnet 
       run: dotnet build --configuration Release
+      working-directory: ./Dima.Core
 
     #não incrementei a parte de testes
 
