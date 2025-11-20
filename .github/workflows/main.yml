@@ -25,8 +25,7 @@ jobs:
     #não incrementei a parte de testes
 
     - name: Pack
-      run: dotnet pack --configuration Release --output ../artifacts
-      working-directory: ./Dima.Core
+      run: dotnet pack ./Dima.Core/Dima.Core.csproj --configuration Release --no-build
 
     - name: Publish
       run: dotnet nuget push "Dima.Core/bin/Release/*.nupkg" -k ${{ secrets.NUGET_TOKEN }} -s https://api.nuget.org/v3/index.json
